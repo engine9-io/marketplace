@@ -2,17 +2,17 @@
     
     {
         "path": "@engine9-io/plugins/console",
-        "name": "Console Access",
+        "name": "Engine9 Console",
         "alias": "e9console"
     },
     {
         "path": "@engine9-io/interfaces/plugin",
-        "name": "Plugin Manager",
+        "name": "Engine9 Plugin Manager",
         "alias": "e9plugin"
     },
     {
         "path": "@engine9-io/plugins/email",
-        "name": "E9 Emailer",
+        "name": "Engine9 Emailer",
         "alias": "e9email"
     },
 
