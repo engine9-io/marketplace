@@ -1,7 +1,7 @@
 [
     
     {
-        "path": "@engine9-io/plugins/console",
+        "path": "@engine9-io/plugins/e9console",
         "name": "Engine9 Console",
         "alias": "e9console"
     },
@@ -11,7 +11,7 @@
         "alias": "e9plugin"
     },
     {
-        "path": "@engine9-io/plugins/email",
+        "path": "@engine9-io/plugins/e9email",
         "name": "Engine9 Emailer",
         "alias": "e9email"
     },
