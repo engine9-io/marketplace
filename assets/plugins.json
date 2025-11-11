@@ -1,790 +1,784 @@
 [
-    
-    {
-        "path": "@engine9-io/plugins/e9console",
-        "name": "Engine9 Console",
-        "alias": "e9console"
-    },
-    {
-        "path": "@engine9-io/interfaces/plugin",
-        "name": "Engine9 Plugin Manager",
-        "alias": "e9plugin"
-    },
-    {
-        "path": "@engine9-io/plugins/e9email",
-        "name": "Engine9 Emailer",
-        "alias": "e9email"
-    },
-
-    {
-        "path": "@engine9-io/plugins/email",
-        "alias": "constantcontact"
-    },
-    {
-        "path": "channelbots.ConstantContactBot",
-        "alias": "constantcontact"
-    },
-    {
-        "path": "channelbots.MicrosoftDynamicsBot",
-        "alias": "msdynamics"
-    },
-    {
-        "path": "channelbots.MobileCommonsBot",
-        "alias": "mobilecommons"
-    },
-    {
-        "path": "channelbots.SharePointBot",
-        "alias": "sharepoint"
-    },
-    {
-        "path": "channelbots.ShareFileBot",
-        "alias": "sharefile"
-    },
-    {
-        "path": "channelbots.ScaleToWinBot",
-        "alias": "scaletowin"
-    },
-    {
-        "path": "workerbots.SharepointBot",
-        "alias": "sharepoint"
-    },
-    {
-        "path": "chatterbots.GoogleBot",
-        "alias": "google"
-    },
-    {
-        "path": "chatterbots.GoogleDriveBot",
-        "alias": "gdrive"
-    },
-    {
-        "path": "channelbots.ActionNetworkSQLBot",
-        "alias": "ansql"
-    },
-    {
-        "path": "channelbots.AdRollBot",
-        "alias": "adroll"
-    },
-    {
-        "path": "channelbots.ActBlueBot",
-        "alias": "actblue"
-    },
-    {
-        "path": "channelbots.ActionKitBot",
-        "alias": "actionkit"
-    },
-    {
-        "path": "channelbots.BBCrmAzureBot",
-        "alias": "bbcrm_azure"
-    },
-    {
-        "path": "channelbots.ClassyBot",
-        "alias": "classy"
-    },
-    {
-        "path": "channelbots.ActionNetworkBot",
-        "alias": "actionnetwork"
-    },
-    {
-        "path": "channelbots.CatalistBot",
-        "alias": "catalist"
-    },
-    {
-        "path": "channelbots.EngagingNetworksBot",
-        "alias": "engaging"
-    },
-    {
-        "path": "channelbots.FullContactBot",
-        "alias": "fullcontact"
-    },
-    {
-        "path": "channelbots.AscendantBot",
-        "alias": "ascendant"
-    },
-    {
-        "path": "channelbots.PerplexityBot",
-        "alias": "perplexity"
-    },
-    {
-        "path": "channelbots.AuthenticBot",
-        "alias": "authentic"
-    },
-    {
-        "path": "channelbots.CampaignDeputyBot",
-        "alias": "campaigndeputy"
-    },
-    {
-        "path": "channelbots.SisenseBot",
-        "alias": "sisense"
-    },
-    {
-        "path": "channelbots.iMISBot",
-        "alias": "imis"
-    },
-    {
-        "path": "channelbots.MyVoterSQLBot",
-        "alias": "myv"
-    },
-    {
-        "path": "channelbots.SagePaymentsBot",
-        "alias": "sage_payments"
-    },
-    {
-        "path": "channelbots.TVaultBot",
-        "alias": "tvault"
-    },
-    {
-        "path": "channelbots.DropboxBot",
-        "alias": "dropbox"
-    },
-    {
-        "path": "channelbots.MessageBirdBot",
-        "alias": "messagebird"
-    },
-    {
-        "path": "workerbots.MSSQLBot",
-        "alias": "sqlserver"
-    },
-    {
-        "path": "channelbots.NumeroBot",
-        "alias": "numero"
-    },
-    {
-        "path": "custombots.MRSSBot",
-        "alias": "mrss"
-    },
-    {
-        "path": "channelbots.BSDSQLBot",
-        "alias": "bsdsql"
-    },
-    {
-        "path": "channelbots.MarketoBot",
-        "alias": "marketo"
-    },
-    {
-        "path": "workerbots.CDNBot",
-        "alias": "cdn"
-    },
-    {
-        "path": "workerbots.MongoBot",
-        "alias": "mongo"
-    },
-    {
-        "path": "scheduler.ErrorBot",
-        "alias": "error"
-    },
-    {
-        "path": "channelbots.SalesforceMarketingCloudBot",
-        "alias": "sfmc"
-    },
-    {
-        "path": "channelbots.Care2Bot",
-        "alias": "care2"
-    },
-    {
-        "path": "channelbots.FacebookBusinessManagerBot",
-        "alias": "facebook_bizman"
-    },
-    {
-        "path": "channelbots.PardotBot",
-        "alias": "pardot"
-    },
-    {
-        "path": "custombots.CNHSBot",
-        "alias": "cnhs"
-    },
-    {
-        "path": "channelbots.NexxenBot",
-        "alias": "nexxen"
-    },
-    {
-        "path": "scheduler.DataFlowBot"
-    },
-    {
-        "path": "channelbots.RENxtBot",
-        "alias": "renxt"
-    },
-    {
-        "path": "scheduler.EmailListenerBot",
-        "alias": "emaillistener"
-    },
-    {
-        "path": "channelbots.HustleBot",
-        "alias": "hustle"
-    },
-    {
-        "path": "channelbots.SalsaEngageBot",
-        "alias": "salsaengage"
-    },
-    {
-        "path": "workerbots.GitBot",
-        "alias": "git"
-    },
-    {
-        "path": "channelbots.FacebookPoliticalBot",
-        "alias": "fbpolitical"
-    },
-    {
-        "path": "channelbots.MicrosoftNAVBot",
-        "alias": "msnav"
-    },
-    {
-        "path": "channelbots.CivisSQLBot",
-        "alias": "civis_sql"
-    },
-    {
-        "path": "channelbots.GoogleAnalyticsBot",
-        "alias": "google_analytics"
-    },
-    {
-        "path": "channelbots.StripeSftpBot",
-        "alias": "stripe_sftp"
-    },
-    {
-        "path": "channelbots.UnifiedWarehouseBot",
-        "alias": "unified"
-    },
-    {
-        "path": "workerbots.WarehouseSecurityBot"
-    },
-    {
-        "path": "workerbots.SourceCodeManagerBot",
-        "alias": "sourcecode"
-    },
-    {
-        "path": "channelbots.DoubleClickBot",
-        "alias": "doubleclick"
-    },
-    {
-        "path": "channelbots.NprHqLeadGenBot",
-        "alias": "npr_hq_lead_gen"
-    },
-    {
-        "path": "channelbots.TessituraBot",
-        "alias": "tessitura"
-    },
-    {
-        "path": "channelbots.YouTubeBot",
-        "alias": "youtube"
-    },
-    {
-        "path": "channelbots.AllegianceCRMBot",
-        "alias": "allegiance_crm"
-    },
-    {
-        "path": "channelbots.ManualBot",
-        "alias": "manual"
-    },
-    {
-        "path": "channelbots.NgpVan7Bot",
-        "alias": "ngpvan7"
-    },
-    {
-        "path": "workerbots.SentinelBot",
-        "alias": "sentinel"
-    },
-    {
-        "path": "channelbots.AdestraBot",
-        "alias": "adestra"
-    },
-    {
-        "path": "workerbots.RedshiftBot",
-        "alias": "redshift"
-    },
-    {
-        "path": "custombots.CatsCRMBot",
-        "alias": "catscrm"
-    },
-    {
-        "path": "engine9.Engine9Workers",
-        "alias": "engine9"
-    },
-    {
-        "path": "channelbots.ROISFTPBot",
-        "alias": "roi_sftp"
-    },
-    {
-        "path": "workerbots.GoogleBigQueryBot",
-        "alias": "googlebigquery"
-    },
-    {
-        "path": "channelbots.TatangoBot",
-        "alias": "tatango"
-    },
-    {
-        "path": "channelbots.BingBot",
-        "alias": "bing"
-    },
-    {
-        "path": "channelbots.AsanaBot",
-        "alias": "asana"
-    },
-    {
-        "path": "channelbots.FreshAddressBot",
-        "alias": "freshaddress"
-    },
-    {
-        "path": "channelbots.NgpVanBot",
-        "alias": "ngp"
-    },
-    {
-        "path": "channelbots.NGOConnectBot",
-        "alias": "sf_ngoc"
-    },
-    {
-        "path": "channelbots.NprStationLeadGenBot",
-        "alias": "npr_hq_lead_gen"
-    },
-    {
-        "path": "channelbots.RevinateBot",
-        "alias": "revinate"
-    },
-    {
-        "path": "channelbots.IterableBot",
-        "alias": "iterable"
-    },
-    {
-        "path": "channelbots.SalesforceODSBot",
-        "alias": "salesforce"
-    },
-    {
-        "path": "workerbots.StreamingTimelineToFileBot"
-    },
-    {
-        "path": "workerbots.StreamingTimelineToWhBot",
-        "alias": "stream_wh"
-    },
-    {
-        "path": "channelbots.AcousticBot",
-        "alias": "acoustic"
-    },
-    {
-        "path": "channelbots.MurmurationBot",
-        "alias": "murmur"
-    },
-    {
-        "path": "channelbots.DonorDriveBot",
-        "alias": "dd"
-    },
-    {
-        "path": "channelbots.EveryActionBot",
-        "alias": "everyaction"
-    },
-    {
-        "path": "channelbots.iPhiCoreBot",
-        "alias": "iphicore"
-    },
-    {
-        "path": "channelbots.InstagramBot",
-        "alias": "instagram"
-    },
-    {
-        "path": "channelbots.SpringboardBot",
-        "alias": "springboard"
-    },
-    {
-        "path": "channelbots.GoogleBot",
-        "alias": "google"
-    },
-    {
-        "path": "custombots.MothershipBot",
-        "alias": "mothership"
-    },
-    {
-        "path": "workerbots.DBBot",
-        "alias": "frakturedb"
-    },
-    {
-        "path": "channelbots.LinkedInBot",
-        "alias": "linkedin"
-    },
-    {
-        "path": "custombots.SCETVBot",
-        "alias": "scetv"
-    },
-    {
-        "path": "channelbots.HuntrBot",
-        "alias": "huntr"
-    },
-    {
-        "path": "channelbots.MailChimpBot",
-        "alias": "mailchimp"
-    },
-    {
-        "path": "channelbots.AirtableBot",
-        "alias": "airtable"
-    },
-    {
-        "path": "workerbots.ReportBot",
-        "alias": "report"
-    },
-    {
-        "path": "workerbots.SFTPBot",
-        "alias": "sftp"
-    },
-    {
-        "path": "workerbots.S3Bot",
-        "alias": "s3"
-    },
-    {
-        "path": "workerbots.RethinkBot",
-        "alias": "rethink"
-    },
-    {
-        "path": "workerbots.SQSBot",
-        "alias": "sqs"
-    },
-    {
-        "path": "channelbots.PortfolioBot",
-        "alias": "portfolio"
-    },
-    {
-        "path": "workerbots.SisenseBot",
-        "alias": "sisense"
-    },
-    {
-        "path": "workerbots.Zip7Bot",
-        "alias": "zip7"
-    },
-    {
-        "path": "custombots.STCBot"
-    },
-    {
-        "path": "scheduler.JobArchiveBot"
-    },
-    {
-        "path": "workerbots.ExcelBot",
-        "alias": "excel"
-    },
-    {
-        "path": "workerbots.SnowflakeBot",
-        "alias": "snowflake"
-    },
-    {
-        "path": "workerbots.ProxySQLBot",
-        "alias": "proxysql"
-    },
-    {
-        "path": "workerbots.AutomatedKnowledgeBot"
-    },
-    {
-        "path": "workerbots.BabelBot",
-        "alias": "babel"
-    },
-    {
-        "path": "workerbots.AWSBot",
-        "alias": "aws"
-    },
-    {
-        "path": "channelbots.CallsWithoutWallsBot",
-        "alias": "callswithoutwalls"
-    },
-    {
-        "path": "channelbots.BSDBot",
-        "alias": "bsd"
-    },
-    {
-        "path": "channelbots.CivisBot",
-        "alias": "civis_sql"
-    },
-    {
-        "path": "channelbots.EventBriteBot",
-        "alias": "eventbrite"
-    },
-    {
-        "path": "channelbots.VanBot",
-        "alias": "van"
-    },
-    {
-        "path": "channelbots.CampaignMonitorBot",
-        "alias": "campaignmonitor"
-    },
-    {
-        "path": "channelbots.ConvioLuminateBot",
-        "alias": "luminate"
-    },
-    {
-        "path": "channelbots.TeamApproachBot",
-        "alias": "teamapproach"
-    },
-    {
-        "path": "channelbots.DotDigitalBot",
-        "alias": "dotdigital"
-    },
-    {
-        "path": "channelbots.NationBuilderBot",
-        "alias": "nationbuilder"
-    },
-    {
-        "path": "channelbots.DoppelBot",
-        "alias": "doppel"
-    },
-    {
-        "path": "channelbots.MadMimiBot",
-        "alias": "madmimi"
-    },
-    {
-        "path": "channelbots.FundraiseUpBot",
-        "alias": "fundraiseup"
-    },
-    {
-        "path": "channelbots.MVaultBot",
-        "alias": "mvault"
-    },
-    {
-        "path": "channelbots.WordpressBot",
-        "alias": "wordpress"
-    },
-    {
-        "path": "workerbots.EmailBot",
-        "alias": "email"
-    },
-    {
-        "path": "channelbots.WealthEngineBot",
-        "alias": "wealthengine"
-    },
-    {
-        "path": "scheduler.JobLogBot",
-        "alias": "joblog"
-    },
-    {
-        "path": "channelbots.RSSBot",
-        "alias": "rss"
-    },
-    {
-        "path": "custombots.PBSSalesforceLeadBot",
-        "alias": "pbs_sf"
-    },
-    {
-        "path": "channelbots.NeonCRMBot",
-        "alias": "neon"
-    },
-    {
-        "path": "channelbots.StripeBot",
-        "alias": "stripe"
-    },
-    {
-        "path": "channelbots.GooglePoliticalAdBot",
-        "alias": "googlepolitical"
-    },
-    {
-        "path": "channelbots.SwitchboardBot",
-        "alias": "switchboard"
-    },
-    {
-        "path": "channelbots.QuickBooksBot",
-        "alias": "quickbooks"
-    },
-    {
-        "path": "channelbots.ROIBot",
-        "alias": "roi"
-    },
-    {
-        "path": "channelbots.StubBot",
-        "alias": "stub"
-    },
-    {
-        "path": "workerbots.AppendBot",
-        "alias": "append"
-    },
-    {
-        "path": "workerbots.EchoBot",
-        "alias": "echo"
-    },
-    {
-        "path": "workerbots.CleanBot",
-        "alias": "cleanbot"
-    },
-    {
-        "path": "channelbots.HubSpotBot",
-        "alias": "hubspot"
-    },
-    {
-        "path": "channelbots.NetCommunityBot",
-        "alias": "netcomm"
-    },
-    {
-        "path": "channelbots.SalsaBot",
-        "alias": "salsa"
-    },
-    {
-        "path": "channelbots.TradeDeskBot",
-        "alias": "tradedesk"
-    },
-    {
-        "path": "channelbots.SignupAnywhereBot",
-        "alias": "signupanywhere"
-    },
-    {
-        "path": "channelbots.ShopifyBot",
-        "alias": "shopify"
-    },
-    {
-        "path": "channelbots.SalesforceBot",
-        "alias": "salesforce"
-    },
-    {
-        "path": "channelbots.RaisersEdgeBot",
-        "alias": "raisersedge"
-    },
-    {
-        "path": "channelbots.RelayBot",
-        "alias": "relay"
-    },
-    {
-        "path": "custombots.MerlinBot",
-        "alias": "merlin"
-    },
-    {
-        "path": "workerbots.FraktureSystemDBBot",
-        "alias": "frakturesystemdb"
-    },
-    {
-        "path": "workerbots.WebDAVBot",
-        "alias": "webdav"
-    },
-    {
-        "path": "scheduler.AccountBot",
-        "alias": "account"
-    },
-    {
-        "path": "channelbots.PayflowProBot",
-        "alias": "payflow"
-    },
-    {
-        "path": "channelbots.Phone2ActionBot",
-        "alias": "p2a"
-    },
-    {
-        "path": "custombots.CAFABot",
-        "alias": "cafa"
-    },
-    {
-        "path": "workerbots.AzureFileBot",
-        "alias": "azure"
-    },
-    {
-        "path": "channelbots.StructuredSFTPBot",
-        "alias": "sftp"
-    },
-    {
-        "path": "custombots.DGABot",
-        "alias": "dga"
-    },
-    {
-        "path": "workerbots.AgencyBot",
-        "alias": "agency"
-    },
-    {
-        "path": "workerbots.CryptBot",
-        "alias": "crypt"
-    },
-    {
-        "path": "workerbots.StatusCodeBot"
-    },
-    {
-        "path": "workerbots.TableauBot",
-        "alias": "tableau"
-    },
-    {
-        "path": "channelbots.BlackbaudFtpClientBot",
-        "alias": "bb_ftp_client"
-    },
-    {
-        "path": "scheduler.AccessTokenBot",
-        "alias": "token"
-    },
-    {
-        "path": "scheduler.ControlBot"
-    },
-    {
-        "path": "channelbots.StackAdaptBot",
-        "alias": "stackadapt"
-    },
-    {
-        "path": "workerbots.GitHubBot",
-        "alias": "github"
-    },
-    {
-        "path": "channelbots.TwitterBot",
-        "alias": "twitter"
-    },
-    {
-        "path": "channelbots.AlgoliaSearchBot",
-        "alias": "algolia"
-    },
-    {
-        "path": "channelbots.GoogleDriveBot",
-        "alias": "gdrive"
-    },
-    {
-        "path": "channelbots.PBSSalesforceLeadBot",
-        "alias": "pbs_sf"
-    },
-    {
-        "path": "channelbots.ROISQLBot",
-        "alias": "roi_sql"
-    },
-    {
-        "path": "custombots.HGFBot",
-        "alias": "HGF"
-    },
-    {
-        "path": "workerbots.MySQLBot",
-        "alias": "mysql"
-    },
-    {
-        "path": "workerbots.OracleBot"
-    },
-    {
-        "path": "workerbots.PostgresBot",
-        "alias": "postgres"
-    },
-    {
-        "path": "workerbots.ExportBot",
-        "alias": "export"
-    },
-    {
-        "path": "workerbots.ScriptBot",
-        "alias": "script"
-    },
-    {
-        "path": "custombots.WorkingAmericaSQLBot",
-        "alias": "wasql"
-    },
-    {
-        "path": "workerbots.FileManipulatorBot",
-        "alias": "file"
-    },
-    {
-        "path": "channelbots.BaseCRMBot",
-        "alias": "basecrm"
-    },
-    {
-        "path": "channelbots.TwilioBot",
-        "alias": "twilio"
-    },
-    {
-        "path": "channelbots.BBCrmBot",
-        "alias": "bbcrm"
-    },
-    {
-        "path": "channelbots.FraktureSchemaBot",
-        "alias": "frakture_schema"
-    },
-    {
-        "path": "channelbots.SilverpopBot",
-        "alias": "silverpop"
-    },
-    {
-        "path": "workerbots.FTPBot",
-        "alias": "ftp"
-    },
-    {
-        "path": "channelbots.GoogleAdsBot",
-        "alias": "google_ads"
-    },
-    {
-        "path": "workerbots.GrafanaBot",
-        "alias": "grafana"
-    }
+  {
+    "path": "@engine9-io/plugins/e9console",
+    "name": "Engine9 Console",
+    "alias": "e9console"
+  },
+  {
+    "path": "@engine9-io/interfaces/plugin",
+    "name": "Engine9 Plugin Manager",
+    "alias": "e9plugin"
+  },
+  {
+    "path": "@engine9-io/plugins/e9email",
+    "name": "Engine9 Emailer",
+    "alias": "e9email"
+  },
+  {
+    "path": "channelbots.ConstantContactBot",
+    "alias": "constantcontact"
+  },
+  {
+    "path": "channelbots.MicrosoftDynamicsBot",
+    "alias": "msdynamics"
+  },
+  {
+    "path": "channelbots.MobileCommonsBot",
+    "alias": "mobilecommons"
+  },
+  {
+    "path": "channelbots.SharePointBot",
+    "alias": "sharepoint"
+  },
+  {
+    "path": "channelbots.ShareFileBot",
+    "alias": "sharefile"
+  },
+  {
+    "path": "channelbots.ScaleToWinBot",
+    "alias": "scaletowin"
+  },
+  {
+    "path": "workerbots.SharepointBot",
+    "alias": "sharepoint"
+  },
+  {
+    "path": "chatterbots.GoogleBot",
+    "alias": "google"
+  },
+  {
+    "path": "chatterbots.GoogleDriveBot",
+    "alias": "gdrive"
+  },
+  {
+    "path": "channelbots.ActionNetworkSQLBot",
+    "alias": "ansql"
+  },
+  {
+    "path": "channelbots.AdRollBot",
+    "alias": "adroll"
+  },
+  {
+    "path": "channelbots.ActBlueBot",
+    "alias": "actblue"
+  },
+  {
+    "path": "channelbots.ActionKitBot",
+    "alias": "actionkit"
+  },
+  {
+    "path": "channelbots.BBCrmAzureBot",
+    "alias": "bbcrm_azure"
+  },
+  {
+    "path": "channelbots.ClassyBot",
+    "alias": "classy"
+  },
+  {
+    "path": "channelbots.ActionNetworkBot",
+    "alias": "actionnetwork"
+  },
+  {
+    "path": "channelbots.CatalistBot",
+    "alias": "catalist"
+  },
+  {
+    "path": "channelbots.EngagingNetworksBot",
+    "alias": "engaging"
+  },
+  {
+    "path": "channelbots.FullContactBot",
+    "alias": "fullcontact"
+  },
+  {
+    "path": "channelbots.AscendantBot",
+    "alias": "ascendant"
+  },
+  {
+    "path": "channelbots.PerplexityBot",
+    "alias": "perplexity"
+  },
+  {
+    "path": "channelbots.AuthenticBot",
+    "alias": "authentic"
+  },
+  {
+    "path": "channelbots.CampaignDeputyBot",
+    "alias": "campaigndeputy"
+  },
+  {
+    "path": "channelbots.SisenseBot",
+    "alias": "sisense"
+  },
+  {
+    "path": "channelbots.iMISBot",
+    "alias": "imis"
+  },
+  {
+    "path": "channelbots.MyVoterSQLBot",
+    "alias": "myv"
+  },
+  {
+    "path": "channelbots.SagePaymentsBot",
+    "alias": "sage_payments"
+  },
+  {
+    "path": "channelbots.TVaultBot",
+    "alias": "tvault"
+  },
+  {
+    "path": "channelbots.DropboxBot",
+    "alias": "dropbox"
+  },
+  {
+    "path": "channelbots.MessageBirdBot",
+    "alias": "messagebird"
+  },
+  {
+    "path": "workerbots.MSSQLBot",
+    "alias": "sqlserver"
+  },
+  {
+    "path": "channelbots.NumeroBot",
+    "alias": "numero"
+  },
+  {
+    "path": "custombots.MRSSBot",
+    "alias": "mrss"
+  },
+  {
+    "path": "channelbots.BSDSQLBot",
+    "alias": "bsdsql"
+  },
+  {
+    "path": "channelbots.MarketoBot",
+    "alias": "marketo"
+  },
+  {
+    "path": "workerbots.CDNBot",
+    "alias": "cdn"
+  },
+  {
+    "path": "workerbots.MongoBot",
+    "alias": "mongo"
+  },
+  {
+    "path": "scheduler.ErrorBot",
+    "alias": "error"
+  },
+  {
+    "path": "channelbots.SalesforceMarketingCloudBot",
+    "alias": "sfmc"
+  },
+  {
+    "path": "channelbots.Care2Bot",
+    "alias": "care2"
+  },
+  {
+    "path": "channelbots.FacebookBusinessManagerBot",
+    "alias": "facebook_bizman"
+  },
+  {
+    "path": "channelbots.PardotBot",
+    "alias": "pardot"
+  },
+  {
+    "path": "custombots.CNHSBot",
+    "alias": "cnhs"
+  },
+  {
+    "path": "channelbots.NexxenBot",
+    "alias": "nexxen"
+  },
+  {
+    "path": "scheduler.DataFlowBot"
+  },
+  {
+    "path": "channelbots.RENxtBot",
+    "alias": "renxt"
+  },
+  {
+    "path": "scheduler.EmailListenerBot",
+    "alias": "emaillistener"
+  },
+  {
+    "path": "channelbots.HustleBot",
+    "alias": "hustle"
+  },
+  {
+    "path": "channelbots.SalsaEngageBot",
+    "alias": "salsaengage"
+  },
+  {
+    "path": "workerbots.GitBot",
+    "alias": "git"
+  },
+  {
+    "path": "channelbots.FacebookPoliticalBot",
+    "alias": "fbpolitical"
+  },
+  {
+    "path": "channelbots.MicrosoftNAVBot",
+    "alias": "msnav"
+  },
+  {
+    "path": "channelbots.CivisSQLBot",
+    "alias": "civis_sql"
+  },
+  {
+    "path": "channelbots.GoogleAnalyticsBot",
+    "alias": "google_analytics"
+  },
+  {
+    "path": "channelbots.StripeSftpBot",
+    "alias": "stripe_sftp"
+  },
+  {
+    "path": "channelbots.UnifiedWarehouseBot",
+    "alias": "unified"
+  },
+  {
+    "path": "workerbots.WarehouseSecurityBot"
+  },
+  {
+    "path": "workerbots.SourceCodeManagerBot",
+    "alias": "sourcecode"
+  },
+  {
+    "path": "channelbots.DoubleClickBot",
+    "alias": "doubleclick"
+  },
+  {
+    "path": "channelbots.NprHqLeadGenBot",
+    "alias": "npr_hq_lead_gen"
+  },
+  {
+    "path": "channelbots.TessituraBot",
+    "alias": "tessitura"
+  },
+  {
+    "path": "channelbots.YouTubeBot",
+    "alias": "youtube"
+  },
+  {
+    "path": "channelbots.AllegianceCRMBot",
+    "alias": "allegiance_crm"
+  },
+  {
+    "path": "channelbots.ManualBot",
+    "alias": "manual"
+  },
+  {
+    "path": "channelbots.NgpVan7Bot",
+    "alias": "ngpvan7"
+  },
+  {
+    "path": "workerbots.SentinelBot",
+    "alias": "sentinel"
+  },
+  {
+    "path": "channelbots.AdestraBot",
+    "alias": "adestra"
+  },
+  {
+    "path": "workerbots.RedshiftBot",
+    "alias": "redshift"
+  },
+  {
+    "path": "custombots.CatsCRMBot",
+    "alias": "catscrm"
+  },
+  {
+    "path": "engine9.Engine9Workers",
+    "alias": "engine9"
+  },
+  {
+    "path": "channelbots.ROISFTPBot",
+    "alias": "roi_sftp"
+  },
+  {
+    "path": "workerbots.GoogleBigQueryBot",
+    "alias": "googlebigquery"
+  },
+  {
+    "path": "channelbots.TatangoBot",
+    "alias": "tatango"
+  },
+  {
+    "path": "channelbots.BingBot",
+    "alias": "bing"
+  },
+  {
+    "path": "channelbots.AsanaBot",
+    "alias": "asana"
+  },
+  {
+    "path": "channelbots.FreshAddressBot",
+    "alias": "freshaddress"
+  },
+  {
+    "path": "channelbots.NgpVanBot",
+    "alias": "ngp"
+  },
+  {
+    "path": "channelbots.NGOConnectBot",
+    "alias": "sf_ngoc"
+  },
+  {
+    "path": "channelbots.NprStationLeadGenBot",
+    "alias": "npr_hq_lead_gen"
+  },
+  {
+    "path": "channelbots.RevinateBot",
+    "alias": "revinate"
+  },
+  {
+    "path": "channelbots.IterableBot",
+    "alias": "iterable"
+  },
+  {
+    "path": "channelbots.SalesforceODSBot",
+    "alias": "salesforce"
+  },
+  {
+    "path": "workerbots.StreamingTimelineToFileBot"
+  },
+  {
+    "path": "workerbots.StreamingTimelineToWhBot",
+    "alias": "stream_wh"
+  },
+  {
+    "path": "channelbots.AcousticBot",
+    "alias": "acoustic"
+  },
+  {
+    "path": "channelbots.MurmurationBot",
+    "alias": "murmur"
+  },
+  {
+    "path": "channelbots.DonorDriveBot",
+    "alias": "dd"
+  },
+  {
+    "path": "channelbots.EveryActionBot",
+    "alias": "everyaction"
+  },
+  {
+    "path": "channelbots.iPhiCoreBot",
+    "alias": "iphicore"
+  },
+  {
+    "path": "channelbots.InstagramBot",
+    "alias": "instagram"
+  },
+  {
+    "path": "channelbots.SpringboardBot",
+    "alias": "springboard"
+  },
+  {
+    "path": "channelbots.GoogleBot",
+    "alias": "google"
+  },
+  {
+    "path": "custombots.MothershipBot",
+    "alias": "mothership"
+  },
+  {
+    "path": "workerbots.DBBot",
+    "alias": "frakturedb"
+  },
+  {
+    "path": "channelbots.LinkedInBot",
+    "alias": "linkedin"
+  },
+  {
+    "path": "custombots.SCETVBot",
+    "alias": "scetv"
+  },
+  {
+    "path": "channelbots.HuntrBot",
+    "alias": "huntr"
+  },
+  {
+    "path": "channelbots.MailChimpBot",
+    "alias": "mailchimp"
+  },
+  {
+    "path": "channelbots.AirtableBot",
+    "alias": "airtable"
+  },
+  {
+    "path": "workerbots.ReportBot",
+    "alias": "report"
+  },
+  {
+    "path": "workerbots.SFTPBot",
+    "alias": "sftp"
+  },
+  {
+    "path": "workerbots.S3Bot",
+    "alias": "s3"
+  },
+  {
+    "path": "workerbots.RethinkBot",
+    "alias": "rethink"
+  },
+  {
+    "path": "workerbots.SQSBot",
+    "alias": "sqs"
+  },
+  {
+    "path": "channelbots.PortfolioBot",
+    "alias": "portfolio"
+  },
+  {
+    "path": "workerbots.SisenseBot",
+    "alias": "sisense"
+  },
+  {
+    "path": "workerbots.Zip7Bot",
+    "alias": "zip7"
+  },
+  {
+    "path": "custombots.STCBot"
+  },
+  {
+    "path": "scheduler.JobArchiveBot"
+  },
+  {
+    "path": "workerbots.ExcelBot",
+    "alias": "excel"
+  },
+  {
+    "path": "workerbots.SnowflakeBot",
+    "alias": "snowflake"
+  },
+  {
+    "path": "workerbots.ProxySQLBot",
+    "alias": "proxysql"
+  },
+  {
+    "path": "workerbots.AutomatedKnowledgeBot"
+  },
+  {
+    "path": "workerbots.BabelBot",
+    "alias": "babel"
+  },
+  {
+    "path": "workerbots.AWSBot",
+    "alias": "aws"
+  },
+  {
+    "path": "channelbots.CallsWithoutWallsBot",
+    "alias": "callswithoutwalls"
+  },
+  {
+    "path": "channelbots.BSDBot",
+    "alias": "bsd"
+  },
+  {
+    "path": "channelbots.CivisBot",
+    "alias": "civis_sql"
+  },
+  {
+    "path": "channelbots.EventBriteBot",
+    "alias": "eventbrite"
+  },
+  {
+    "path": "channelbots.VanBot",
+    "alias": "van"
+  },
+  {
+    "path": "channelbots.CampaignMonitorBot",
+    "alias": "campaignmonitor"
+  },
+  {
+    "path": "channelbots.ConvioLuminateBot",
+    "alias": "luminate"
+  },
+  {
+    "path": "channelbots.TeamApproachBot",
+    "alias": "teamapproach"
+  },
+  {
+    "path": "channelbots.DotDigitalBot",
+    "alias": "dotdigital"
+  },
+  {
+    "path": "channelbots.NationBuilderBot",
+    "alias": "nationbuilder"
+  },
+  {
+    "path": "channelbots.DoppelBot",
+    "alias": "doppel"
+  },
+  {
+    "path": "channelbots.MadMimiBot",
+    "alias": "madmimi"
+  },
+  {
+    "path": "channelbots.FundraiseUpBot",
+    "alias": "fundraiseup"
+  },
+  {
+    "path": "channelbots.MVaultBot",
+    "alias": "mvault"
+  },
+  {
+    "path": "channelbots.WordpressBot",
+    "alias": "wordpress"
+  },
+  {
+    "path": "workerbots.EmailBot",
+    "alias": "email"
+  },
+  {
+    "path": "channelbots.WealthEngineBot",
+    "alias": "wealthengine"
+  },
+  {
+    "path": "scheduler.JobLogBot",
+    "alias": "joblog"
+  },
+  {
+    "path": "channelbots.RSSBot",
+    "alias": "rss"
+  },
+  {
+    "path": "custombots.PBSSalesforceLeadBot",
+    "alias": "pbs_sf"
+  },
+  {
+    "path": "channelbots.NeonCRMBot",
+    "alias": "neon"
+  },
+  {
+    "path": "channelbots.StripeBot",
+    "alias": "stripe"
+  },
+  {
+    "path": "channelbots.GooglePoliticalAdBot",
+    "alias": "googlepolitical"
+  },
+  {
+    "path": "channelbots.SwitchboardBot",
+    "alias": "switchboard"
+  },
+  {
+    "path": "channelbots.QuickBooksBot",
+    "alias": "quickbooks"
+  },
+  {
+    "path": "channelbots.ROIBot",
+    "alias": "roi"
+  },
+  {
+    "path": "channelbots.StubBot",
+    "alias": "stub"
+  },
+  {
+    "path": "workerbots.AppendBot",
+    "alias": "append"
+  },
+  {
+    "path": "workerbots.EchoBot",
+    "alias": "echo"
+  },
+  {
+    "path": "workerbots.CleanBot",
+    "alias": "cleanbot"
+  },
+  {
+    "path": "channelbots.HubSpotBot",
+    "alias": "hubspot"
+  },
+  {
+    "path": "channelbots.NetCommunityBot",
+    "alias": "netcomm"
+  },
+  {
+    "path": "channelbots.SalsaBot",
+    "alias": "salsa"
+  },
+  {
+    "path": "channelbots.TradeDeskBot",
+    "alias": "tradedesk"
+  },
+  {
+    "path": "channelbots.SignupAnywhereBot",
+    "alias": "signupanywhere"
+  },
+  {
+    "path": "channelbots.ShopifyBot",
+    "alias": "shopify"
+  },
+  {
+    "path": "channelbots.SalesforceBot",
+    "alias": "salesforce"
+  },
+  {
+    "path": "channelbots.RaisersEdgeBot",
+    "alias": "raisersedge"
+  },
+  {
+    "path": "channelbots.RelayBot",
+    "alias": "relay"
+  },
+  {
+    "path": "custombots.MerlinBot",
+    "alias": "merlin"
+  },
+  {
+    "path": "workerbots.FraktureSystemDBBot",
+    "alias": "frakturesystemdb"
+  },
+  {
+    "path": "workerbots.WebDAVBot",
+    "alias": "webdav"
+  },
+  {
+    "path": "scheduler.AccountBot",
+    "alias": "account"
+  },
+  {
+    "path": "channelbots.PayflowProBot",
+    "alias": "payflow"
+  },
+  {
+    "path": "channelbots.Phone2ActionBot",
+    "alias": "p2a"
+  },
+  {
+    "path": "custombots.CAFABot",
+    "alias": "cafa"
+  },
+  {
+    "path": "workerbots.AzureFileBot",
+    "alias": "azure"
+  },
+  {
+    "path": "channelbots.StructuredSFTPBot",
+    "alias": "sftp"
+  },
+  {
+    "path": "custombots.DGABot",
+    "alias": "dga"
+  },
+  {
+    "path": "workerbots.AgencyBot",
+    "alias": "agency"
+  },
+  {
+    "path": "workerbots.CryptBot",
+    "alias": "crypt"
+  },
+  {
+    "path": "workerbots.StatusCodeBot"
+  },
+  {
+    "path": "workerbots.TableauBot",
+    "alias": "tableau"
+  },
+  {
+    "path": "channelbots.BlackbaudFtpClientBot",
+    "alias": "bb_ftp_client"
+  },
+  {
+    "path": "scheduler.AccessTokenBot",
+    "alias": "token"
+  },
+  {
+    "path": "scheduler.ControlBot"
+  },
+  {
+    "path": "channelbots.StackAdaptBot",
+    "alias": "stackadapt"
+  },
+  {
+    "path": "workerbots.GitHubBot",
+    "alias": "github"
+  },
+  {
+    "path": "channelbots.TwitterBot",
+    "alias": "twitter"
+  },
+  {
+    "path": "channelbots.AlgoliaSearchBot",
+    "alias": "algolia"
+  },
+  {
+    "path": "channelbots.GoogleDriveBot",
+    "alias": "gdrive"
+  },
+  {
+    "path": "channelbots.PBSSalesforceLeadBot",
+    "alias": "pbs_sf"
+  },
+  {
+    "path": "channelbots.ROISQLBot",
+    "alias": "roi_sql"
+  },
+  {
+    "path": "custombots.HGFBot",
+    "alias": "HGF"
+  },
+  {
+    "path": "workerbots.MySQLBot",
+    "alias": "mysql"
+  },
+  {
+    "path": "workerbots.OracleBot"
+  },
+  {
+    "path": "workerbots.PostgresBot",
+    "alias": "postgres"
+  },
+  {
+    "path": "workerbots.ExportBot",
+    "alias": "export"
+  },
+  {
+    "path": "workerbots.ScriptBot",
+    "alias": "script"
+  },
+  {
+    "path": "custombots.WorkingAmericaSQLBot",
+    "alias": "wasql"
+  },
+  {
+    "path": "workerbots.FileManipulatorBot",
+    "alias": "file"
+  },
+  {
+    "path": "channelbots.BaseCRMBot",
+    "alias": "basecrm"
+  },
+  {
+    "path": "channelbots.TwilioBot",
+    "alias": "twilio"
+  },
+  {
+    "path": "channelbots.BBCrmBot",
+    "alias": "bbcrm"
+  },
+  {
+    "path": "channelbots.FraktureSchemaBot",
+    "alias": "frakture_schema"
+  },
+  {
+    "path": "channelbots.SilverpopBot",
+    "alias": "silverpop"
+  },
+  {
+    "path": "workerbots.FTPBot",
+    "alias": "ftp"
+  },
+  {
+    "path": "channelbots.GoogleAdsBot",
+    "alias": "google_ads"
+  },
+  {
+    "path": "workerbots.GrafanaBot",
+    "alias": "grafana"
+  }
 ]
